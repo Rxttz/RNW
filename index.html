@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta
+            name = "description"
+            content = "this is a gambling website."/>
+        <meta
+            name = "author"
+            content = "Rxttz is best coder"/>
+        <title>gambling wbesite game</title>
+        <link rel="stylesheet" href = "style.css"/>
+    </head>
+    <body>
+        <h1>Gambling game website</h1>
+        <p>
+            We have a random amount of money selected and if you land
+            on the exact number we ask for you win! Other wise WE WILL
+            STEAL YOU MONEY!!!!!
+        </p>
+        <div class = "form">
+            <label for="guessField">Enter a number</label>
+            <input type ="number" min = "1" max = "100" required-id = "guessField" class = "guessField">
+            <input type = "submit" value = "Submit guess" class = "guessSubmit">
+        </div>
+        <div class = "resultParas">
+            <p class = "guesses"></p>
+            <p class = "lastResult"></p>
+            <P class = "lowOrHi"></P>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
